@@ -1,10 +1,21 @@
 {
+  "name": "serverside",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "axios": "^1.16.1",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
     "compression": "^1.8.1",
-    "type": "module",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
@@ -14,18 +25,7 @@
     "mongoose": "^9.6.1",
     "morgan": "^1.11.0",
     "node-cache": "^5.1.2",
-    "node.js": "^0.0.1-security",
     "nodemailer": "^9.0.1",
     "nodemon": "^3.1.14"
-  },
-  "name": "serverside",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
